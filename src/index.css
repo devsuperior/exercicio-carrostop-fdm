@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --color-bg-primary: #fff;
+  --ct-color-bg-primary: #fff;
+  --ct-color-bg-secondary: #F78B00;
+
+  --ct-color-font-primary: #000;
+  --ct-color-font-secondary:#585858;
+  --ct-color-font-tertiary: #00285F;
+  --ct-color-font-quaternary: #fff;
+  
 }
 
 * {
@@ -19,5 +26,11 @@ a:hover {
 
 html,
 body {
-  background-color: var(--color-bg-primary);
+  background-color: var(--ct-color-bg-primary);
 }
+
+.ct-container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+} 
